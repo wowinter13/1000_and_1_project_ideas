@@ -2,7 +2,7 @@
 
 ## Bio/Med-tech
 
-#### 1. First aid kit & Medication Tracker (Mobile)
+### 1. First aid kit & Medication Tracker (Mobile)
 
 |               |          |
 | ------------- |----------|
@@ -20,7 +20,7 @@
 2. No limit on notifications
 
 
-#### 2. Medical lootboxes
+### 2. Medical lootboxes
 
 |               |          |
 | ------------- |----------|
@@ -31,12 +31,12 @@ Why not to start with some vitamine combos from https://iherb.com?
 
 ## Invest-tech
 
-#### 1. Quasi-broker
+### 1. Quasi-broker
 
 
 ## Common
 
-#### 1. Vinyl lootboxes
+### 1. Vinyl lootboxes
 
 |               |             |
 | ------------- |-------------|
