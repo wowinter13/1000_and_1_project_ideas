@@ -34,6 +34,32 @@ Why not to start with some vitamine combos from https://iherb.com?
 ### 1. Quasi-broker
 
 
+
+### 2. Financial news/ideas/analytics aggregator
+
+|               |             |
+| ------------- |-------------|
+| Geography     | *World, RU* |
+| Tags          | *telegram*  |
+|               |             |
+
+**Twitter data sources:**
+
+1. (*RU*) @ArtCapitalTrade, @prime1, @onfleek419, @divalerts, @trader_book_news, @russianmacro, @Trade_The_News
+
+2. (*International*) @barton_options, @DiMartinoBooth, @pat_hennessy, @biancoresearch, @CitronResearch, @profgalloway, @Fxhedgers, @old_but_works, @nntaleb, @muddywatersre, @govttrader, @jessefelder, @ThinkTankCharts
+
+**MVP:**
+At this stage, a Telegram/Twitter bot would be enough. For some inspiration, you could check these links: https://t.me/headlines_for_traders, https://t.me/fin_twitt, https://t.me/StockNews100
+The only problem – possible news duplications, can be solved using algos such as `Word2vec` or `Doc2vec`.
+
+**Functionality:**
+1. A real-time news feed for traders
+2. Filters on companies (*tickers*)
+3. Filters on data types (*analytics, news, div calendar, etc.*)
+
+
+
 ## Common
 
 ### 1. Vinyl lootboxes
