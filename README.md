@@ -27,12 +27,16 @@
 | Geography     | *EU, RU* |
 
 Why not to start with some vitamine combos from https://iherb.com?
-
+Or check out: https://transcend.me/products/your-personalized-packets-11
 
 ## Invest-tech
 
 ### 1. Quasi-broker
 
+|               |             |
+| ------------- |-------------|
+| Geography     | *EU, RU*    |
+|               |             |
 
 
 ### 2. Financial news/ideas/analytics aggregator
@@ -59,10 +63,30 @@ The only problem – possible news duplications, can be solved using algos such 
 3. Filters on data types (*analytics, news, div calendar, etc.*)
 
 
+### 3. Scouting for business jets
+
+|               |             |
+| ------------- |-------------|
+| Geography     | *World, US* |
+| Tags          | *alternative data*, *API*  |
+
+Guys from Quandl did this trick.
+1. They started tracking for Buffett's jets and watching all flights.
+2. After that, they found companies' offices (*from the above cities*), where Berkshire Hathaway had some interest.
+3. *Magic.* Sort all given data by flight  quantity and frequency.
+4. PROFIT: **Anadarko Petroleum**. Buffett had visited \$OXY a couple of times right before the $10 billion deal was publicly announced.
+
+
+### 4. ML-darkpools
+
+|               |             |
+| ------------- |-------------|
+| Geography     | *World, US* |
+| Tags          | *alternative data*, *trade matching*  |
 
 ## Common
 
-### 1. Vinyl lootboxes
+### 1. Vinyl lootboxes (or subscription)
 
 |               |             |
 | ------------- |-------------|
