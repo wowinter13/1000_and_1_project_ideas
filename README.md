@@ -29,7 +29,7 @@
 Why not to start with some vitamine combos from https://iherb.com?
 Or check out: https://transcend.me/products/your-personalized-packets-11
 
-## Invest-tech
+## Invest-tech/Fin-tech
 
 ### 1. Quasi-broker
 
@@ -83,6 +83,18 @@ Guys from Quandl did this trick.
 | ------------- |-------------|
 | Geography     | *World, US* |
 | Tags          | *alternative data*, *trade matching*  |
+
+
+**Description**
+*(A dark pool is a privately organized financial forum or exchange for trading securities. Dark pools allow institutional investors to trade without exposure until after the trade has been executed and reported. Dark pools are a type of alternative trading system (ATS) that give certain investors the opportunity to place large orders and make trades without publicly revealing their intentions during the search for a buyer or seller. @Investopedia)*
+
+When a trader places an order to buy stocks, the stock exchange matches it with a counter one – to sell. ML middleware could split this order into smaller composite parts.
+So we reduce the impact of the trade on the market price -> optimizing the process of trading for big and complex positions.
+
+
+**Why now?**
+Here we have a strong interest from small/medium-sized funds, which can't use darkpools from such guys as Morgan Stanley or other big banks, but still don't want to move some penny stock prices (or emerging market stocks) simply because of the rebalancing.
+
 
 ## Common
 
