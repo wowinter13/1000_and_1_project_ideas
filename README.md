@@ -68,7 +68,7 @@ The only problem – possible news duplications, can be solved using algos such 
 |               |             |
 | ------------- |-------------|
 | Geography     | *World, US* |
-| Tags          | *alternative data*, *API*  |
+| Tags          | *alternative data*, *API*, *SaaS*  |
 
 Guys from Quandl did this trick.
 1. They started tracking for Buffett's jets and watching all flights.
@@ -100,7 +100,7 @@ Here we have a strong interest from small/medium-sized funds, which can't use da
 |               |             |
 | ------------- |-------------|
 | Geography     | *World, RU* |
-| Tags          | *API*, *alternative data*  |
+| Tags          | *API*, *alternative data*, *SaaS*  |
 
 
 **Description**
@@ -118,11 +118,64 @@ And the funny thing is – that you could find all these *Black Swan Events* or 
 
 **Why now?**
 
-<img width="372" height="243" src="https://user-images.githubusercontent.com/12775766/104593839-57e00080-5681-11eb-8919-cda105b15162.jpg">
+<img width="372" height="243" src="https://raw.githubusercontent.com/wowinter13/1000_and_1_project_ideas/master/backtesting-1.jpg">
 
 Let's have a look at this chart by Bloomberg. It's a little outdated, but it still looks actual. Every year the hedge-funds and biggest investment banks increase their spendings on technology and **quant strategies development** while cutting spendings on direct trading and front-offices.
 
 In the world of algos and robots, it is getting harder and harder to trade discretionarily.
+
+
+### 6. Mistaken tickers
+
+|               |             |
+| ------------- |-------------|
+| Geography     | *US, World* |
+| Tags          | *alternative data*, *SaaS*  |
+
+
+**Description**
+
+1. Markets can stay irrational longer than you can stay solvent. (Keynes, 1930)
+2. Apes together strong. (Rise Of The Planet Of The Apes, 2011)
+
+Inefficient markets, combined with Robinhood apes, gift us with plenty of awkward and stupid market situations. One of them is a case when the original stock goes up while some other share with a similar ticker or name also starts to surge.
+
+<img src="https://raw.githubusercontent.com/wowinter13/1000_and_1_project_ideas/master/800-return.gif" min-width="250px" max-width="400px" width="250px" align="right" alt="real money">
+
+
+**MVP:**
+
+1. Parse all stock tickers and their names (also, do not forget that you could have the same name on different exchanges).
+2. Match all similar strings and create a dictionary for them (or create an index, it depends on how deep you plan to analyze the data)
+3. Subscribe to real-time market data and track your dictionary keys (*key is a ticker of the original company*)
+4. If the ticker swings more wildly in relation to the overall market (*regarding stock's beta*), create an alert (**or buy*).
+5. (*or buy) As you understand, you easily could create a day-trading algo to track all market inefficiencies (for example, with Alpaca Markets API or IB API).
+
+
+**Examples**
+
+1. **\$DUO**: from \$10 to \$130 in 4 hours. 
+    **FAANG** is an acronym referring to the stocks of the five most popular American technology companies: Facebook, Amazon, Apple, Netflix, and Google. Actually, there is no ETF's called \$FAANG (*the closest one is called \$XLC*). But new retail investors don't know anything about it. As a result, on 9 June 2020, we had \$DUO shares up nearly 395 percent. Why? Simply because Robinhooders heard everyone is buying FANG stocks and they rushed out and bought **FANG**DD *Network Group*, a Chinese company.
+
+2. **\$GME** soared 60% in a day.
+
+    I'm almost sure that the original \$GME stock was also up 60% or more, but this \$GME is from Australia.
+
+    (In January, during Gamestop (\$GME) short-squeeze, company shares soared by a staggering 7000%)
+
+
+    <img width="446" height="250" src="https://raw.githubusercontent.com/wowinter13/1000_and_1_project_ideas/master/gme-stock.jpg">
+
+3. Elon signals to use Signal.
+
+    “*Use Signal,*” the Tesla Inc. CEO wrote on Twitter on Jan. 7. And it was referring to the encrypted messaging service...But by the end of the same day, **Signal Advance Inc** (\$SIGL) shares surged up 600%. And you may ask yourself, "What was wrong?". The signal was wrong. A two-word app recommendation from Elon Musk has turned into a massive rally in the shares of **a tiny medical device company** in another case of mistaken identity.
+
+    <img width="413" height="232" src="https://raw.githubusercontent.com/wowinter13/1000_and_1_project_ideas/master/signal.jpeg">
+
+
+**Why now?**
+
+“*Retail participation is at levels we haven’t seen in 20 years,*” said Benn Eifert, managing partner of QVR Advisors.
 
 
 ## Common
