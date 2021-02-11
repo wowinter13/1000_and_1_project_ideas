@@ -29,6 +29,40 @@
 Why not to start with some vitamine combos from https://iherb.com?
 Or check out: https://transcend.me/products/your-personalized-packets-11
 
+
+### 3. Cheap lucid dreams mask
+
+|               |          |
+| ------------- |----------|
+| Geography     | *World* |
+| Tags          | *Kickstarter*, *Hardware* |
+
+
+<img width="467" height="175" src="https://raw.githubusercontent.com/wowinter13/1000_and_1_project_ideas/master/lucid-dreams.png">
+
+
+**Description**
+
+*(A lucid dream is a type of dream where the dreamer becomes aware that they are dreaming. During a lucid dream, the dreamer may gain some amount of control over the dream characters, narrative, and environment. @Wiki)*
+
+The lucid dreams mask is a type of smart mask, that tracks REM Sleep and causes lucid dreaming using audio or/and visual methods. Actually, there are at least two products currently on the market: Remee and Somni.
+
+Remee's price is \$44.90 and it even **can't track** your eyes to define the REM phase. Somni's price is about **\$200.0**, but the product looks fine – they even added headphones for it. So we need to create a mask that is more functional than a Remee mask, but also is cheaper than a mask by Somni. How could we do it? Let's use heart rate monitors inside our smartwatches! During REM sleep, we can observe an overall increase in blood pressure and heart rate.
+
+**MVP:**
+
+1. Create an app to access and read your sleep data (https://www.appcoda.com/sleep-analysis-healthkit/)
+2. Track any unstable heart rate increases and trigger a weak vibration on watches or (*)*send an event to a remote mask*; which now became much comfortable without heavy warm eye-tracking block on it.
+3. (*) Create a mask 😃. (hint: check a technology behind the Spring water bottle)
+
+
+**Why now?**
+
+Because all existing solutions are too expensive or use obsolete technologies to track sleep phases. And the demand is quite stable.
+
+
+****
+
 ## Invest-tech/Fin-tech
 
 ### 1. Quasi-broker
@@ -178,6 +212,17 @@ Inefficient markets, combined with Robinhood apes, gift us with plenty of awkwar
 “*Retail participation is at levels we haven’t seen in 20 years,*” said Benn Eifert, managing partner of QVR Advisors.
 
 
+### 7. AI Open/Closed Ended Funds
+
+|               |             |
+| ------------- |-------------|
+| Geography     | *US, RU, World* |
+
+
+
+
+
+****
 ## Common
 
 ### 1. Vinyl lootboxes (or subscription)
