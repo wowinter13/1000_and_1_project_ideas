@@ -219,8 +219,33 @@ Inefficient markets, combined with Robinhood apes, gift us with plenty of awkwar
 | Geography     | *US, RU, World* |
 
 
+### 8. Stock/Sector Arbitrage
+
+|               |             |
+| ------------- |-------------|
+| Geography     | *US, RU, World* |
+
+### 9. Gaps on warrants
+
+|               |             |
+| ------------- |-------------|
+| Geography     | *US, RU, World* |
+
+>Here was a trade. Nikola Corp., the maybe-one-day-electric-truck-maker that went public via a blank-check merger last month, has a lot of warrants outstanding. Each warrant (ticker NKLAW) allows you to pay \$11.50 to buy one share of Nikola common stock (ticker NKLA). The trade was:
+1	Buy one warrant for \$24.62.
+2	Pay $11.50 to exercise the warrant and get a share of stock.
+3	Sell the stock for \$48.84.
+You pay \$24.62 + \$11.50 = \$36.12. You get \$48.84. Your profit is \$12.72. Pretty good, no?
+You can’t do this trade now. Those numbers are closing prices from Friday, back when the trade was good. The numbers are different now: The warrants closed yesterday at \$27.10; the stock closed at \$38.45. If you do the trade now you’ll lose 15 cents, never mind. Up until Friday you could do this trade and make a lot of money—Nikola shares got as high as \$79.73 on June 9, when the warrants closed at \$29.49, for a profit of \$38.74 on this trade—but now you can’t. The gap has closed.
 
 
+>Here’s another approach: Just buy the warrant, don’t sell the stock, and wait. If the stock is worth \$48.84 on Friday, you might think, the best guess of its value on Monday is \$48.84, give or take. If you can pay \$24.62 on Friday for the right to acquire it for \$11.50 on Monday, for a total cost of \$36.12, then you are getting a good deal. Stock prices move around a bit, so you might not make exactly the \$12.72 profit implied by those numbers, but there’s a lot of room for error there.
+That trade would have worked okay. If you bought the warrant for \$24.62 on Friday, you could have sold it for \$27.10 on Monday, for a profit of \$2.48. Not \$12.72, but greater than zero. Or you could have exercised the warrant on Monday, gotten the stock, and sold the stock for \$38.45, for a profit of \$2.33. The problem is that the main assumption of the trade was mostly wrong: The stock was worth \$48.84 on Friday, but it collapsed to \$38.45 on Monday.
+
+
+One classic way would be: Buy the warrant, sell the stock short, and wait. If you bought the warrant for \$24.62 and sold the stock short for \$48.84, you would have collected \$24.22 in cash. You’d sit on that cash for a weekend, the warrants would become exercisable on Monday, you’d pay \$11.50 of your cash to exercise, you’d get back a share of stock and deliver it to close out your short, and you’d keep \$12.72. Nice trade.
+
+That is not rocket science to compute the difference between a fair value of the warrant and market value.
 
 ****
 ## Common
