@@ -225,6 +225,8 @@ Inefficient markets, combined with Robinhood apes, gift us with plenty of awkwar
 | ------------- |-------------|
 | Geography     | *US, RU, World* |
 
+This app simply identifies arbitrage opportunities. The price for the same instrument may differ on different stock exchanges. The app itself searches for such trades and notifies an investor.
+
 ### 9. Gaps on warrants
 
 |               |             |
